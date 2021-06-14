@@ -1,5 +1,5 @@
-http://localhost:8765/CURRENCY-EXCHANGE/currency-exchange/from/USD/to/GBP
+http://localhost:8765/CURRENCY-EXCHANGE-SERVICE/currency-exchange/from/USD/to/GBP
 
-http://localhost:8765/CURRENCY-CONVERSION/currency-conversion/from/USD/to/GBP/quantity/10
+http://localhost:8765/CURRENCY-CONVERSION-SERVICE/currency-conversion/from/USD/to/GBP/quantity/10
 
-http://localhost:8765/CURRENCY-CONVERSION/currency-conversion-feign/from/USD/to/GBP/quantity/10
+http://localhost:8765/CURRENCY-CONVERSION-SERVICE/currency-conversion-feign/from/USD/to/GBP/quantity/10
