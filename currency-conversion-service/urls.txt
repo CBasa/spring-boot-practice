@@ -1,5 +1,6 @@
 Currency conversion service:
 http://localhost:8100/currency-conversion/from/USD/to/GBP/quantity/10
+http://localhost:8100/currency-conversion-feign/from/USD/to/GBP/quantity/10
 {
   "id": 10001,
   "from": "USD",
