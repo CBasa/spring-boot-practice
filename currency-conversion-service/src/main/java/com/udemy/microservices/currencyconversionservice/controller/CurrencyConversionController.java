@@ -41,7 +41,7 @@ public class CurrencyConversionController {
 		
 		CurrencyConversion currencyConversion = proxy.retrieveExchangeValue(from, to);
 		
-		return new CurrencyConversion(currencyConversion.getId(), from, to, quantity, currencyConversion.getConversionMultiple(), quantity.multiply(currencyConversion.getConversionMultiple()) , currencyConversion.getEnvironment()+" feign");
+		return new CurrencyConversion(1L, from, to, quantity, currencyConversion.getConversionMultiple(), quantity.multiply(currencyConversion.getConversionMultiple()) , currencyConversion.getEnvironment()+" feign");
 		
 	}
 	

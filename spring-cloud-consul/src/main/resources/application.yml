@@ -1,0 +1,9 @@
+spring: 
+  cloud:
+    consul:
+      config:
+        fail-fast: true
+      host: localhost
+      port: 8500
+  application:    name: consulconfig
+#    consul agent -server -bootstrap-expect=1 -data-dir=consul-data -ui -bind=192.168.178.24
